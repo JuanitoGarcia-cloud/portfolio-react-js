@@ -8,23 +8,26 @@ header {
 
 
 section {
-    height: 750px;   
+    height: auto;   
 }
 
 .block {
     align-content: center;
-    align-items: center;
 }
 
 hr {
     color: blue;
-    size: 50px;
+    border: 5px;
 }
 
 .bg-img {
     height: 500px;
-    background-image: url(/assets/img/hero-bg.jpg);
+    background-image: url(../img/hero-bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100% 500px;
+    background-size: 100%;
+}
+
+.padside-5 {
+    padding: 0 5rem;   
 }
