@@ -1,0 +1,38 @@
+header {
+    margin-bottom: 50px;
+}
+
+.navbar-nav a {
+    color: #fff;
+}
+
+
+section {
+    height: auto;   
+}
+
+.block {
+    align-content: center;
+}
+
+hr.mb-5 {
+    color: blue;
+    border: solid 2px;
+    opacity: 1;
+}
+
+.bg-img {
+    height: 500px;
+    background-image: url(../img/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.padside-6 {
+    padding: 0 6rem;   
+}
+
+u {
+    color: blue;
+}
