@@ -15,9 +15,15 @@ section {
     align-content: center;
 }
 
-hr.mb-5 {
+hr.h-2 {
     color: blue;
     border: solid 2px;
+    opacity: 1;    
+}
+
+hr.h-3 {
+    color: blue;
+    border: solid 3px;
     opacity: 1;
 }
 
@@ -32,7 +38,14 @@ hr.mb-5 {
 .padside-6 {
     padding: 0 6rem;   
 }
+.padside-15 {
+    padding: 0 15rem;   
+}
 
 u {
     color: blue;
+}
+
+.card {
+    height: 500px;
 }
